@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Моя оболонка</string>
+    <string name="greet_morning">Доброго ранку</string>
+    <string name="greet_day">Добрий день</string>
+    <string name="greet_evening">Добрий вечір</string>
+    <string name="greet_night">Доброї ночі</string>
+    <string name="settings">Налаштування</string>
+    <string name="all_apps">Усі програми</string>
+    <string name="back">Назад</string>
+    <string name="cannot_open">Не вдалося відкрити програму</string>
+</resources>

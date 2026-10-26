@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Закріплені програми: показуються першими, у вказаному порядку.
+        Це назви пакетів (package name). Якщо якоїсь програми немає на приставці,
+        рядок просто ігнорується. Точні назви можна дізнатися командою:
+        adb shell pm list packages | grep -i назва
+    -->
+    <string-array name="pinned_packages">
+        <item>com.google.android.youtube.tv</item>
+        <item>com.netflix.ninja</item>
+        <item>com.megogo.application</item>
+        <item>tv.sweet.tvplayer</item>
+        <item>com.wbd.stream</item>
+        <item>com.amazon.amazonvideo.livingroom</item>
+        <item>com.disney.disneyplus</item>
+        <item>org.xbmc.kodi</item>
+    </string-array>
+
+    <!-- Програми, які треба приховати з оболонки (назви пакетів). -->
+    <string-array name="hidden_packages">
+        <item>com.example.hidden.placeholder</item>
+    </string-array>
+</resources>
